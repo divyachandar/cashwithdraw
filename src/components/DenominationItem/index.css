@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.denomination-card-container {
+  width: 50%;
+  margin-bottom: 16px;
+  list-style-type: none;
+}
+.btn-value {
+  background-color: #382f5a;
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .btn-value {
+    font-size: 24px;
+  }
+}
